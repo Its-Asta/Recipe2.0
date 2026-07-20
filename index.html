@@ -69,10 +69,11 @@
     
                         <div class="col hide-on-med-and-down center">
                             <ul class="right hide-on-med-and-down">
-                                <li><a href="index.html" class="orange-text text-darken-4">Who We Are</a></li>
-                                <li><a href="cakes.html" class="orange-text text-darken-4">Find a Recipe</a></li>
-                                <li><a href="soups.html" class="orange-text text-darken-4">Our Reviews</a></li>
-                                <li><a href="chicken.html" class="orange-text text-darken-4">Contact Us</a></li>
+                                <li><a href="#recipe" class="orange-text text-darken-4 bold">Find a Recipe</a></li>
+                                <li><a href="#us" class="orange-text text-darken-4 bold">Who We Are</a></li>
+                                <li><a href="#chefs" class="orange-text text-darken-4 bold">Our Chefs</a></li>
+                                <li><a href="contact_us.html" class="orange-text text-darken-4 bold">Contact Us</a></li>
+                                <li><p></p></li>
                             </ul>
                         </div>
     
@@ -85,10 +86,10 @@
             </nav>
         </div>
         <ul class="sidenav" id="menu">
-            <li><a href="index.html" class="orange-text text-darken-4 bold">Who We Are</a></li>
-            <li><a href="cakes.html" class="orange-text text-darken-4 bold">Find a Recipe</a></li>
-            <li><a href="soups.html" class="orange-text text-darken-4 bold">Our Reviews</a></li>
-            <li><a href="chicken.html" class="orange-text text-darken-4 bold">Contact Us</a></li>
+            <li><a href="#recipe" class="orange-text text-darken-4 bold">Find a Recipe</a></li>
+            <li><a href="#us" class="orange-text text-darken-4 bold">Who We Are</a></li>
+            <li><a href="#chefs" class="orange-text text-darken-4 bold">Our Chefs</a></li>
+            <li><a href="contact_us.html" class="orange-text text-darken-4 bold">Contact Us</a></li>
             <li><p></p></li>
             <li>
                 <div class="orange darken-4 padded-button">
@@ -139,126 +140,130 @@
             <div class="col l6 hide-on-med-and-down"><img class="responsive-img" src="img/spagetti.png" alt="spaghetti"></div>
         </div>
 
-        <div class="container center hide-on-small-and-down">
-            <span class="normal-text">Select a </span>
-            <span class="normal-text orange-text text-darken-4 italics"> category</span>
+        <div class="scrollspy" id="recipe">
+            <div class="container center hide-on-small-and-down">
+                <span class="normal-text">Select a </span>
+                <span class="normal-text orange-text text-darken-4 italics"> category</span>
 
-            <div class="row">
-                <div class="col s12 l4">
-                    <div class="card relative">
-                        <div class="card-image">
-                            <img class="responsive-img" src="img/cake-main.jpg" alt="cake">
-                            <div class="overlay">
-                                <div class="overlay-text white-text underline">
-                                    <a href="#">Cakes</a>
-                                    <i class="material-icons">call_made</i>
+                <div class="row">
+                    <div class="col s12 l4">
+                        <div class="card relative">
+                            <div class="card-image">
+                                <img class="responsive-img" src="img/cake-main.jpg" alt="cake">
+                                <div class="overlay">
+                                    <div class="overlay-text white-text underline">
+                                        <a href="#">Cakes</a>
+                                        <i class="material-icons">call_made</i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col s12 l4">
+                        <div class="card relative">
+                            <div class="card-image">
+                                <img class="responsive-img" src="img/chicken-main.jpg" alt="chicken">
+                                <div class="overlay">
+                                    <div class="overlay-text white-text underline">
+                                        <a href="#">Chicken</a>
+                                        <i class="material-icons">call_made</i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col s12 l4">
+                        <div class="card relative">
+                            <div class="card-image">
+                                <img class="responsive-img" src="img/soup-main.jpg" alt="soup">
+                                <div class="overlay">
+                                    <div class="overlay-text white-text underline">
+                                        <a href="#">Soups</a>
+                                        <i class="material-icons">call_made</i>
+                                    </div>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
-                <div class="col s12 l4">
-                    <div class="card relative">
-                        <div class="card-image">
-                            <img class="responsive-img" src="img/chicken-main.jpg" alt="chicken">
-                            <div class="overlay">
-                                <div class="overlay-text white-text underline">
-                                    <a href="#">Chicken</a>
-                                    <i class="material-icons">call_made</i>
-                                </div>
-                            </div>
+            </div>
+
+            <div class="slider hide-on-med-and-up">
+                <ul class="slides">
+                    <li>
+                        <img src="img/cake-main.jpg" alt="Cake" class="responsive-img">
+                        <div class="caption center-align">
+                            <h3 class="white-text">
+                                Cake
+                                <i class="material-icons">call_made</i>
+                            </h3>
                         </div>
-                    </div>
-                </div>
-                <div class="col s12 l4">
-                    <div class="card relative">
-                        <div class="card-image">
-                            <img class="responsive-img" src="img/soup-main.jpg" alt="soup">
-                            <div class="overlay">
-                                <div class="overlay-text white-text underline">
-                                    <a href="#">Soups</a>
-                                    <i class="material-icons">call_made</i>
-                                </div>
-                            </div>
+                    </li>
+                    <li>
+                        <img src="img/chicken-main.jpg" alt="Chicken" class="responsive-img">
+                        <div class="caption center-align">
+                            <h3 class="white-text">
+                                Chicken
+                                <i class="material-icons">call_made</i>
+                            </h3>
                         </div>
-                    </div>
-                </div>
+                    </li>
+                    <li>
+                        <img src="img/soup-main.jpg" alt="Soup" class="responsive-img">
+                        <div class="caption center-align">
+                            <h3 class="white-text">
+                                Soup
+                                <i class="material-icons">call_made</i>
+                            </h3>
+                        </div>
+                    </li>
+                </ul>
             </div>
         </div>
 
-        <div class="slider hide-on-med-and-up">
-            <ul class="slides">
-                <li>
-                    <img src="img/cake-main.jpg" alt="Cake" class="responsive-img">
-                    <div class="caption center-align">
-                        <h3 class="white-text">
-                            Cake
-                            <i class="material-icons">call_made</i>
-                        </h3>
+        <div class="scrollspy" id="us">
+            <div class="container hide-on-med-and-down">
+                <div class="row">
+                    <div class="col s12 m6 l6">
+                        <img class="responsive-img" src="img/chef.jpg" alt="">
                     </div>
-                </li>
-                <li>
-                    <img src="img/chicken-main.jpg" alt="Chicken" class="responsive-img">
-                    <div class="caption center-align">
-                        <h3 class="white-text">
-                            Chicken
-                            <i class="material-icons">call_made</i>
-                        </h3>
+
+                    <div class="col s12 m6 l6">
+                        <span class="normal-text">Crafted by Culinary</span> <span class="pink-text text-accent-4 normal-text">Wizards</span>
+                        <p class="bonus-text">Discover a world of flavorful options that promise <br> mouthwatering result, meticulously curated and <br> perfected by culinary experts, all at your fingertips. <br> Easy as pie, isn't it?</p>
+                        <button class="button btn btn-flat btn-large pink accent-4 white-text">START COOKING</button>
                     </div>
-                </li>
-                <li>
-                    <img src="img/soup-main.jpg" alt="Soup" class="responsive-img">
-                    <div class="caption center-align">
-                        <h3 class="white-text">
-                            Soup
-                            <i class="material-icons">call_made</i>
-                        </h3>
-                    </div>
-                </li>
-            </ul>
-        </div>
-
-        <div class="container hide-on-med-and-down">
-            <div class="row">
-                <div class="col s12 m6 l6">
-                    <img class="responsive-img" src="img/chef.jpg" alt="">
-                </div>
-
-                <div class="col s12 m6 l6">
-                    <span class="normal-text">Crafted by Culinary</span> <span class="pink-text text-accent-4 normal-text">Wizards</span>
-                    <p class="bonus-text">Discover a world of flavorful options that promise <br> mouthwatering result, meticulously curated and <br> perfected by culinary experts, all at your fingertips. <br> Easy as pie, isn't it?</p>
-                    <button class="button btn btn-flat btn-large pink accent-4 white-text">START COOKING</button>
-                </div>
-            </div>
-        </div>
-
-        <div class="container hide-on-large-only hide-on-extra-large-only hide-on-small-and-down">
-            <div class="row">
-                <div class="col s12 m6 l6">
-                    <img class="responsive-img" src="img/chef.jpg" alt="">
-                </div>
-
-                <div class="col s12 m6 l6">
-                    <span class="normal-text">Crafted by Culinary</span> <span class="pink-text text-accent-4 normal-text">Wizards</span>
-                    <p class="bonus-text">Discover a world of flavorful options that promise mouthwatering result, meticulously curated and perfected by culinary experts, all at your fingertips. Easy as pie, isn't it?</p>
-                    <button class="button btn btn-flat btn-large pink accent-4 white-text">START COOKING</button>
-                </div>
-            </div>
-        </div>
-
-        <div class="container hide-on-med-and-up">
-            <div class="center row">
-                <div class="col s12 m6 l6">
-                    <img class="responsive-img" src="img/chef-thumbs-up.jpg" alt="">
-                </div>
-
-                <div class="col s12 m6 l6">
-                    <span class="minimum-text">Crafted by Culinary</span> <span class="pink-text text-accent-4 minimum-text">Wizards</span>
-                    <p class="bonus-text">Discover a world of flavorful options that promise mouthwatering result, meticulously curated and perfected by culinary experts, all at your fingertips. Easy as pie, isn't it?</p>
                 </div>
             </div>
 
-            <button class="button btn btn-flat btn-large pink accent-4 white-text">START COOKING</button>
+            <div class="container hide-on-large-only hide-on-extra-large-only hide-on-small-and-down">
+                <div class="row">
+                    <div class="col s12 m6 l6">
+                        <img class="responsive-img" src="img/chef.jpg" alt="">
+                    </div>
+
+                    <div class="col s12 m6 l6">
+                        <span class="normal-text">Crafted by Culinary</span> <span class="pink-text text-accent-4 normal-text">Wizards</span>
+                        <p class="bonus-text">Discover a world of flavorful options that promise mouthwatering result, meticulously curated and perfected by culinary experts, all at your fingertips. Easy as pie, isn't it?</p>
+                        <button class="button btn btn-flat btn-large pink accent-4 white-text">START COOKING</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="container hide-on-med-and-up">
+                <div class="center row">
+                    <div class="col s12 m6 l6">
+                        <img class="responsive-img" src="img/chef-thumbs-up.jpg" alt="">
+                    </div>
+
+                    <div class="col s12 m6 l6">
+                        <span class="minimum-text">Crafted by Culinary</span> <span class="pink-text text-accent-4 minimum-text">Wizards</span>
+                        <p class="bonus-text">Discover a world of flavorful options that promise mouthwatering result, meticulously curated and perfected by culinary experts, all at your fingertips. Easy as pie, isn't it?</p>
+                    </div>
+                </div>
+
+                <button class="button btn btn-flat btn-large pink accent-4 white-text">START COOKING</button>
+            </div>
         </div>
 
         <div class="black">
@@ -298,7 +303,7 @@
             <div><p>k</p></div>
         </div>
 
-        <div class="container">
+        <div class="container scrollspy" id="chefs">
             <p class="hide-on-small-and-down large-text">Meet the <span class="orange-text text-darken-4 italics normal-text"> experts</span></p>
             <div class="center">
                 <p class="hide-on-med-and-up minimum-text">Meet the <span class="orange-text text-darken-4 italics minimum-text"> experts</span></p>
@@ -362,6 +367,46 @@
 
         <div class="container"><hr></div>
     </main>
+
+    <footer class="page-footer footer" >
+    <div class="container">
+        <div class="row">
+            <div class="col s12 m3 l3">
+                <p class="orange-text text-darken-4">About</p>
+                <p class="black-text">Who We Are</p>
+                <p class="black-text">Meet the Chefs</p>
+                <p class="black-text">FAQs</p>
+            </div>
+
+            <div class="col s12 m5 l3">
+                <p class="orange-text text-darken-4">Explore</p>
+                <p class="black-text">Recipes</p>
+                <p class="black-text">Cakes</p>
+                <p class="black-text">Chicken</p>
+                <p class="black-text">Soups</p>
+            </div>
+
+            <div class="col s12 m3 l3">
+                <p class="orange-text text-darken-4">Legal</p>
+                <p class="black-text">Privacy Policy</p>
+                <p class="black-text">Terms & Conditions</p>
+                <p class="black-text">Disclosure</p>
+            </div>
+
+            <div class="col s12 m5 l3">
+                <p class="orange-text text-darken-4">Contact Us</p>
+                <p class="black-text">+2349024364876</p>
+                <p class="black-text">customersupport@recipe.com</p>
+            </div>
+        </div>
+    </div>
+
+        <div class="footer-copyright transparent">
+            <div class="container center">
+                <p>&copy; 2026 Recipe.com | COLLINS OGBEBOR. All rights reserved.
+            </div>
+        </div>
+    </footer>
 </body>
 <script src="js/JQuery.js"></script>
 <script src="js/materialize.js"></script>
