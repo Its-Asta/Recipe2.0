@@ -1,0 +1,66 @@
+.home-paragraph{
+    text-align: center;
+}
+
+.bold{
+    font-weight: bold;
+}
+
+.italics{
+    font-style: italic;
+    font-size: 19px;
+    opacity: 0.7;
+}
+
+.border-bottom{
+    border-bottom: 1px solid rgb(222, 222, 222);
+}
+
+.pad{
+    padding-left: 20px !important;
+}
+
+.padding{ 
+    padding-bottom: 20px;
+}
+
+.start{
+    height: 100px;
+}
+
+.button{
+    border-radius: 10px;
+}
+.padded-button{
+    border-radius: 10px;
+    margin: 3%;
+}
+
+.relative{
+    position: relative;
+}
+
+
+.absolute{
+    position: absolute;
+    top: 25%;
+    left: 5%;
+}
+
+.abs{
+    position: absolute;
+    top: 35%;
+    left: 35%;
+}
+
+video{
+    width: 100%;
+}
+
+ul li a:hover{
+    font-weight: bold;
+}
+
+div button:hover{
+    font-weight: bold;
+}

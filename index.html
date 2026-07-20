@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/materialize.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="img/rcon.ico" type="image/x-icon">
+    <title>Recipe2.0</title>
+    <style>
+        *{font-family: "Josefin Sans", sans-serif;}
+        
+        p{
+            font-size: 14px;
+        }
+
+        .small-text{
+            font-size: 15px;
+        }
+
+        .plain-text{
+            font-size: 30px;
+        }
+
+        span{
+            font-size: 11px;    
+        }
+
+        .minimum-text{
+            font-size: 30px;
+        }
+
+        .normal-text{
+            font-size: 55px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="navbar-fixed">
+            <nav class="white">
+                <div class="nav-wrapper container">
+                    <div class="row">
+                        <div class="col l3 hide-on-med-and-down">
+                            <a href="#" class="brand-logo left">
+                                <img src="img/logo.png" class="responsive-img" alt="Recipe.com">
+                            </a>
+                        </div>
+    
+                        <a href="#" class="brand-logo center hide-on-large-only hide-on-extra-large-only">
+                            <img src="img/logo.png" class="responsive-img" alt="Recipe.com">
+                        </a>
+    
+                        <a href="#menu" class="sidenav-trigger">
+                            <i class="material-icons orange-text text-darken-4">menu</i>
+                        </a>    
+    
+                        <div class="col hide-on-med-and-down center">
+                            <ul class="right hide-on-med-and-down">
+                                <li><a href="index.html" class="orange-text text-darken-4">Who We Are</a></li>
+                                <li><a href="cakes.html" class="orange-text text-darken-4">Find a Recipe</a></li>
+                                <li><a href="soups.html" class="orange-text text-darken-4">Our Reviews</a></li>
+                                <li><a href="chicken.html" class="orange-text text-darken-4">Contact Us</a></li>
+                            </ul>
+                        </div>
+    
+                        <div class="col l2 push-l2 right hide-on-med-and-down">
+                            <button class="btn button btn-flat orange white-text darken-4">LOGIN</button>
+                        </div>
+                    </div>
+
+                </div>
+            </nav>
+        </div>
+        <ul class="sidenav" id="menu">
+            <li><a href="index.html" class="orange-text text-darken-4 bold">Who We Are</a></li>
+            <li><a href="cakes.html" class="orange-text text-darken-4 bold">Find a Recipe</a></li>
+            <li><a href="soups.html" class="orange-text text-darken-4 bold">Our Reviews</a></li>
+            <li><a href="chicken.html" class="orange-text text-darken-4 bold">Contact Us</a></li>
+            <li><p></p></li>
+            <li>
+                <div class="orange darken-4 padded-button">
+                    <button class="btn btn-flat white-text">
+                        <div class="row">
+                            <div class="col push-s12">
+                            </div>
+                            <div class="col push-s9">
+                                <a class="white-text" href="">LOGIN</a>
+                            </div>
+                        </div>
+                    </button>
+                </div>
+            </li>
+        </ul>
+
+        <div class="header-video-container">
+            <video autoplay muted loop src="./video/header-bg-vid.mp4" class="hide-on-med-and-down" type="video/mp4"></video>
+        </div>
+        <div class="relative hide-on-large-only hide-on-extra-large-only">
+            <img class="responsive-img" src="img/welcome-banner.jpg" alt="welcome banner">
+        </div>
+
+        <div class="abs hide-on-med-and-down home-paragraph">
+            <span class="normal-text white-text">Every Dish Tells a <br>    Story.</span>
+            <p class="plain-text white-text">Explore, cook, and create with us.</p>
+            <button class="btn btn-flat btn-large button orange darken-4 white-text">GET STARTED</button>
+        </div>
+
+        <div class="absolute hide-on-large-only hide-on-extra-large-only">
+            <span class="minimum-text white-text">Every Dish Tells a Story.</span>
+            <p class="small-text white-text">Explore, cook, and create with us.</p>
+            <button class="btn btn-flat button orange darken-4 white-text">GET STARTED</button>
+        </div>
+    </header>
+</body>
+<script src="js/JQuery.js"></script>
+<script src="js/materialize.js"></script>
+<script>
+    $(document).ready(function(){
+        $('.slider').slider(
+            {
+                height: 400,
+                indicators: false
+            }
+        ),
+
+        $('.sidenav').sidenav(),
+
+        $('.scrollspy').scrollSpy()
+    });
+</script>
+</html>
