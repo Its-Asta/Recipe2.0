@@ -33,6 +33,11 @@
 .button{
     border-radius: 10px;
 }
+
+.pill{
+    border-radius: 30px;
+}
+
 .rounded-edges{
     border-radius: 20px !important;
 }
@@ -104,6 +109,12 @@ div button:hover{
     text-align: center;
 }
 
-.footer{
+.footer-o{
     background: linear-gradient(to bottom, white, #e65100);
+}
+.footer-r{
+    background: linear-gradient(to bottom, white, #f44336);
+}
+.footer-g{
+    background: linear-gradient(to bottom, white, #1b5e20);
 }
